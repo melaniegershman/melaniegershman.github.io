@@ -1,5 +1,5 @@
 body {
-  font-family: "DejaVu Sans Mono", monospace;
+  font-family: "Courier New", monospace;
 }
 
 a {
@@ -12,8 +12,13 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  background-color: #fffb47;
+}
+
 section,
-header {
+header,
+footer {
   padding: 0 2.4em;
   margin-bottom: 2.5em;
   line-height: 2em;
