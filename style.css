@@ -27,7 +27,7 @@ footer {
 }
 
 img {
-  width: 90%;
+  width: 55%;
   height:auto;
   border: solid 10px #ffc6f2;
   border-radius: 5%;
@@ -36,6 +36,10 @@ img {
 
 .text-color--primary {
   color: #ffc6f2;
+}
+
+.text-weight--bold {
+  font-weight: bold;
 }
 
 .color-fill--primary {
