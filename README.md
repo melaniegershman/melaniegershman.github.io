@@ -1,2 +1,2 @@
 # melaniegershman.github.io
-My portfolio for 2018.
+My portfolio, updated for 2020.
