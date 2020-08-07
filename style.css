@@ -1,5 +1,7 @@
 body {
   font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -13,7 +15,8 @@ a:visited {
 }
 
 a:hover {
-  background-color: #fffb47;
+  background-color: #000000;
+  color: #d8ff61;
 }
 
 section,
@@ -22,20 +25,19 @@ footer {
   padding: 0 2.4em;
   margin-bottom: 2.5em;
   line-height: 2em;
-  width: 40%;
   box-sizing: border-box;
 }
 
 img {
-  width: 55%;
+  width: 20%;
   height:auto;
-  border: solid 10px #ffc6f2;
+  border: solid 10px #d8ff61;
   border-radius: 5%;
   margin: 2.5em 0;
 }
 
 .text-color--primary {
-  color: #ffc6f2;
+  color: #d8ff61;
 }
 
 .text-weight--bold {
@@ -43,7 +45,7 @@ img {
 }
 
 .color-fill--primary {
-  background-color: #ffc6f2;
+  background-color: #d8ff61;
 }
 
 @media only screen
